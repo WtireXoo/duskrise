@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    background: #0d0d0d;
+    color: white;
+    font-family: 'Segoe UI', sans-serif;
+    background: url('background.png') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  .shop-container {
+    text-align: center;
+    padding: 60px 20px;
+  }
+  
+  .shop-container h1 {
+    font-size: 48px;
+    margin-bottom: 50px;
+    background: linear-gradient(90deg, #00c6ff, #0072ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .card-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  .card {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 20px;
+    padding: 40px 30px;
+    width: 280px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.6);
+  }
+  
+  .card h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+  
+  .card .price {
+    font-size: 24px;
+    margin-bottom: 25px;
+    color: #ccc;
+  }
+  
+  .buy-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background: linear-gradient(135deg, #00c6ff, #0072ff);
+    color: white;
+    font-weight: bold;
+    border-radius: 999px;
+    text-decoration: none;
+    transition: background 0.3s ease, transform 0.2s ease;
+  }
+  
+  .buy-button:hover {
+    background: linear-gradient(135deg, #0072ff, #0055cc);
+    transform: scale(1.05);
+  }
+  
+  .payment-info {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #bbb;
+    font-size: 15px;
+    opacity: 0.85;
+  }
+  
+  .payment-info img.paypal-icon {
+    height: 28px;
+  }
+
+  .intro-text {
+    font-size: 18px;
+    color: #aaa;
+    margin-bottom: 40px;
+  }
+  
+  .perks {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+    color: #ccc;
+    font-size: 15px;
+  }
+  
+  .perks li {
+    margin: 6px 0;
+  }
+  
+  footer {
+    margin-top: 60px;
+    font-size: 14px;
+    color: #777;
+  }
+  
+  footer a {
+    color: #4fa3ff;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  body {
+    animation: fadeIn 1.2s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }

@@ -1,0 +1,49 @@
+body {
+
+    background: url('background.png') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+hero-button {
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* jebem nato */
+
+.bottom-panel {
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.4);
+    padding: 10px 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    z-index: 999;
+    }
+    
+    .bottom-panel img {
+    width: 24px;
+    height: 24px;
+    }
+    
+    .bottom-panel span {
+    font-family: Text;
+    font-size: 16px;
+    color: white;
+    }
+
+    @font-face {
+        font-family: 'Header';
+        src: url('MINECRAFT PE.ttf') format('truetype');
+      }
+      
+      @font-face {
+        font-family: 'Text';
+        src: url('Minercraftory.ttf') format('truetype');
+      }
+      
