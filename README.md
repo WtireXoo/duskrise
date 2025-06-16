@@ -1,7 +1,7 @@
 # Duskrise
 
 Hi i wanted to post this html website onto github, its a website i made for a minecraft server which i was a dev in.
-But sadly it got cancelled.
+But sadly it got cancelled. (Theres still my skin if anybody cares ;)
 
 # Information
 
